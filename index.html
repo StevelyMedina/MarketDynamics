@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="main.js"></script>
+    <title>Mi primera página web</title>
+</head>
+<body>
+    <header>
+         <div>
+         <img src="./ImagenesWeb/MarketDynamics logo.png" alt="Logo MarketDynamics">
+         </div>
+         <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li> </a>
+                <a href="#nosotros"><li>NOSOTROS</li></a>
+                <a href="#nuestra filosofia"><li>NUESTRA FILOSOFÍA</li></a>
+                <a href=""  ><li>RECURSOS</li></a>
+                <a href=""  ><li>CONTACTO</li></a>
+            </ul>
+         </nav>
+    </header>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./ImagenesWeb/Carousel 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ImagenesWeb/Carousel 3..jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./ImagenesWeb/Carousel 2 (1).jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  <div id="nosotros">
+<div class="container-fluid">
+    <div class="box">
+    <img src="./ImagenesWeb/Stevely.png" alt="Stevely Imagen">
+    <h1>Stevely Medina</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illo eveniet quam quod vero fugit magnam, nobis perferendis debitis in dignissimos accusamus repudiandae necessitatibus iste sit expedita adipisci! Et, saepe?</p>
+    </div>
+
+    <div class="box">
+    <img src="./ImagenesWeb/Empleada 2.png" alt="Empleada 2 Imagen">
+    <h1>Empleada 2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis nulla similique corrupti ullam, quo nisi repellat delectus fugit doloribus, at repellendus ducimus voluptatem molestias molestiae eveniet adipisci saepe dicta?</p>
+    </div>
+
+     <div class="box">
+    <img src="./ImagenesWeb/Empleada 3.png" alt="Empleada 3 Imagen">
+    <h1>Empleada 3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ex fugit tempore aspernatur itaque voluptatem in doloribus temporibus incidunt quas, eligendi, laborum voluptates esse quasi iusto, vitae enim culpa? Exercitationem?</p>
+    </div>
+</div>
+</div>
+
+
+<div id="nuestra filosofia">
+<div class="container-fluid"> 
+    <div class="caja">
+    <img src="./ImagenesWeb/Mision.png" alt="Misión Icon">
+    <h1>Misión</h1>
+    <div id="contenido"> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illo eveniet quam quod vero fugit magnam, nobis perferendis debitis in dignissimos accusamus repudiandae necessitatibus iste sit expedita adipisci! Et, saepe?</p>
+    </div>
+    <button onclick='mostrar_ocultar("contenido")' class="btn btn-dark btn-md" form="contenido" >+</button>
+    </div>
+    
+
+    <div class="caja">
+    <img src="./ImagenesWeb/Visión.png" alt="Visión Icon">
+    <h1>Visión</h1>
+    <div id="contenido2"> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam officiis nulla similique corrupti ullam, quo nisi repellat delectus fugit doloribus, at repellendus ducimus voluptatem molestias molestiae eveniet adipisci saepe dicta?</p>
+    </div>
+    <button onclick='mostrar_ocultar("contenido2")' class="btn btn-dark btn-md" form="contenido2" >+</button>
+    </div>
+
+     <div class="caja">
+    <img src="./ImagenesWeb/Valores1.png" alt="Valores Icon">
+    <h1>Valores</h1>
+    <div id="contenido3"> 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ex fugit tempore aspernatur itaque voluptatem in doloribus temporibus incidunt quas, eligendi, laborum voluptates esse quasi iusto, vitae enim culpa? Exercitationem?</p>
+    </div>
+    <button onclick='mostrar_ocultar("contenido3")' class="btn btn-dark btn-md" form="contenido3" >+</button>
+    </div>
+</div>
+</div>
+
+<div class="servicios">
+   <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>SERVICIOS</h2>
+        </div>
+      </div>
+   </div>
+
+
+   <div class="row">
+      <div class="col-md-6">
+        <h3>Gestión de redes sociales</h3>
+        <p>Las redes sociales son un canal vital para interactuar con los clientes y aumentar la conciencia de marca.</p>
+        <img src="./ImagenesWeb/Servicio 1.png" alt="Imagen Gestión de redes sociales">
+      </div>
+      <div class="col-md-6">
+        <h3>Publicidad en línea</h3>
+        <p>Ofrecida a través de plataformas como Google Ads y redes sociales, es una forma efectiva de llegar a un público objetivo de manera rápida.</p>
+        <img src="./ImagenesWeb/Servicio 2.png" alt="Imagen Publicidad en linea">
+      </div>
+      <div class="col-md-6">
+        <h3>Analítica Web</h3>
+        <p>El seguimiento y análisis de datos son fundamentales para medir el éxito de las estrategias digitales. </p>
+        <img src="./ImagenesWeb/Servicio 3.png" alt="Imagen Analítica Web ">
+      </div>
+      <div class="col-md-6">
+        <h3>Diseño y desarrollo Web</h3>
+        <p>Un sitio web atractivo, funcional y optimizado es esencial para la presencia en línea de una empresa. </p>
+        <img src="./ImagenesWeb/Servicio 4.png" alt="Imagen Diseño y desarrollo Web">
+      </div>
+    </div>
+</div>   
+
+  <section id="contact">
+      <form action="">
+      <h2>¡CONTÁCTANOS!</h2>
+      <label for="name">Nombre</label>
+      <input type="text" />
+
+      <label for="name">e-mail</label>
+      <input type="text" />
+
+      <label for="name">Consulta</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <input type="submit" value="Enviar" />
+      </form>
+  </section>
+  
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color:  #7890FF;">
+      <p>Conocé nuestra Política de privacidad | ©2023 MarketDynamics. Todos los derechos reservados.</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

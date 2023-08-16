@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+body{
+  background-color: #001F3F;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #213559;
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+}
+
+header a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+header img{
+  height: 100px;
+  width: 100%;
+}
+
+
+header ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+img{
+   width: 150px;
+}
+
+h1{
+  font-size: 34px;
+  color: #001F3F;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+p{
+ font-size: 20px;
+ color: black;
+}
+
+.container-fluid h1{
+  font-size: 34px;
+  color: aliceblue;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid p{
+  font-size: 19px;
+  color: azure;
+}
+
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: #004AAD;
+}
+
+.container-md{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #F5F5F5;
+
+}
+
+.caja{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box img{
+   border-radius: 50px;
+}
+
+button {
+  background-color: #9EADF1;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+.btn-primary {
+  border: solid 1px #7890FF;
+  background-color: #9EADF1;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  box-shadow: none;
+  border: solid 1px #9EADF1;
+  background-color: #7890FF;
+}
+
+.caja p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.caja{
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.container-md{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.servicios{
+  background-color: #7890FF;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.servicios h2{
+  display: flex;
+  align-items: center; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+.servicios p{
+  font-size: 20px;
+}
+
+.servicios h3{
+  display: flex;
+  align-items: center; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contact {
+  background-color: rgb(26, 72, 151);
+  display: grid;
+  grid-template: auto 100px / 700px;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+#contact form {
+  padding: 20px;
+  color: white;
+  display: grid;
+  gap: 15px;
+  grid-template: auto / auto;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 50%;
+}
+
+#contact form input,
+#contact form textarea {
+  padding: 20px 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+
+#contact form input[type="submit"] {
+  background-color: #7890FF;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
